@@ -10,5 +10,107 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.main-container{
+    position: relative;
+    color: #6d6d6d;
+    overflow: hidden;
+}
 
+a{
+    color: #6d6d6d;
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+}
+
+h4{
+    color: white;
+    text-transform: uppercase;
+}
+
+.m-b15px{
+    margin-bottom: 15px;
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+.sidebar{
+    background-color: black;
+    color: #6d6d6d;
+    width: 150px;
+    height: calc(100vh - 70px);
+    padding: 15px 15px 0px 15px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img:last-child{
+    display: none;
+}
+
+.sidebar .fas {
+    font-size: 20px;
+    width: 20px;
+    line-height: 24px;
+    margin: 5px 10px 5px 0;
+    vertical-align: middle;
+}
+
+.green-border{
+    border-left: #adff2f 2px solid ;
+    width: 150px;
+    margin-left: -15px;
+    padding-left: 10px;
+}
+
+.green-border a{
+    color: white;
+}
+
+.sidebar .far{
+    margin-right: 10px;
+}
+
+.sidebar .fas:last-child{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.playlist p,
+.side-scrollbar p{
+    line-height: 25px;
+}
+
+.side-scrollbar {
+    overflow-y: auto;
+    flex-grow: 1;
+    min-height: 75px;
+}
+
+.sidebar .bottom p{
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.sidebar .bottom p:last-child{
+    color: white;
+}
+
+.sidebar .bottom p:last-child span{
+    margin-left: 5px;
+}
+
+.profile{
+    height: 25px;
+    background: #808080;
+    border-radius: 50%;
+    vertical-align: middle;
+}
 
