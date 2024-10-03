@@ -10,7 +10,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }.
   
-,
 
 .main-container{
     position: relative;
@@ -116,3 +115,130 @@ a:hover{
     vertical-align: middle;
 }
 
+
+.page{
+    width: calc(100% - 150px);
+    height: calc(100vh - 70px);
+    background-color: #141922;
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.page h6{
+    font-size: 16px;
+}
+
+.page p{
+    font-size: 14px;
+}
+
+.header-button{
+    width: calc(100vw - 150px);
+    height: 70px;
+    background-color: rgba(8,11,18,0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0px;
+}
+
+.button{
+    padding: 10px 25px;
+    border: white 1px solid;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: rgb(8,11,18);
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.a-button{
+    color: white;
+}
+
+.button:hover{
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #6d6d6d;
+    margin-top: 70px;
+}
+
+.header span{
+    margin: 0 15px;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.header span:first-child{
+    position: relative;
+}
+
+.green-underline{
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 1px #adff2f solid;
+}
+
+.container{
+    margin: 0 15px 50px 15px;
+}
+
+.page .container:last-child{
+    margin-bottom: 0;
+}
+
+.row{
+    text-align: center;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-row,
+.third-row{
+    display: flex;
+}
+
+.first-row .song:first-child,
+.second-row .song:first-child{
+    margin-left: 0;
+}
+
+.first-row .song:last-child,
+.second-row .song:last-child{
+    margin-right: 0;
+}
+
+.song{
+    width: calc(100% / 7);
+    margin: 0 10px;
+    color: white;
+}
+
+.song img{
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100px;
+    flex-grow: 1;
+}
+
+.circle{
+    border-radius: 50%;
+}
