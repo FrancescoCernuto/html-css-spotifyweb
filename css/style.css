@@ -242,3 +242,105 @@ a:hover{
 .circle{
     border-radius: 50%;
 }
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: #282828;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer h4{
+    text-transform: none;
+}
+
+.left,
+.right {
+    width: 20%;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left .far{
+    margin: 0 10px;
+}
+
+.text{
+    margin-right: 25px
+}
+
+.left img{
+    vertical-align: middle;
+    width: 50px;
+}
+
+.left .text p{
+    font-size: 12px;
+}
+
+.left a:hover{
+    text-decoration: underline;
+}
+
+footer .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+footer .center i{
+    margin: 0 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.bottom #range{
+    width: 50%;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+footer .bottom span{
+    font-size: 10px;
+}
+
+footer .center .far{
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.center .top a{
+    color: white;
+}
+
+.center .fa-play-circle:hover{
+    font-size: 24px;
+}
+
+.right{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    line-height: 70px;
+}
+
+.right i{
+    margin: 0 5px;
+}
+
+#volume{
+    vertical-align: middle;
+    width: 60%;
+}
